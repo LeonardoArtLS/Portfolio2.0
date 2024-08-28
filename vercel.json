@@ -1,0 +1,18 @@
+{
+    "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [
+    { "src": "/",  "dest": "/src/index.html" },
+    { "src": "./output.css",  "dest": "/src/output.css" },
+    { "src": "./style.css",  "dest": "/src/style.css" },
+    { "src": "/",  "dest": "/src/index.html" },
+    { "src": "./theme.js",  "dest": "/src/theme.js" },
+    { "src": "./scrollspy.js",  "dest": "/src/scrollspy.js" },
+    { "src": "./pointer.js",  "dest": "/src/pointer.js" },
+    { "src": "../api/mailer.php",  "dest": "/api/mailer.php" }
+    
+  ]
+}

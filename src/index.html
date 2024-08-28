@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfólio LeonardoArtLS</title>
+    <link rel="preload" href="./img/gif1.gif" as="image">
+    <link rel="preload" href="./img/gif2.gif" as="image">
+    <link rel="preload" href="./img/gif3.gif" as="image">
+    <link rel="preload" href="./img/gif4.gif" as="image">
+    <link rel="preload" href="./img/gif5.gif" as="image">
+    <link rel="preload" href="./img/gif6.gif" as="image">
+    <link rel="preload" href="./img/gif7.gif" as="image">
+    <link rel="preload" href="./img/gif8.gif" as="image">
+    <link rel="preload" href="./img/gif9.gif" as="image">
+</head>
+
+<body class="h-screen bg-zinc-100 dark:bg-black transition-colors">
+
+    <header>
+        <nav class="h-11 fixed bottom-3 md:top-9 w-screen flex items-center justify-center nav">
+
+            <ul
+                class="grid grid-cols-5 text-center justify-center rounded-3xl bg-slate-300 dark:bg-zinc-900 self-center font-semibold dark:text-slate-100 items-center navbar Inter-Tight p-1 sm:p-2">
+                <li class="active"><a href="#home">HOME</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#stack">STACK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="h-11 fixed top-9 w-1/5 flex items-center justify-end theme-button header">
+
+            <label class="switch w-full">
+                <input checked="checked" type="checkbox" id="buttonTheme">
+                <svg viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg"
+                    class="moon dark:fill-slate-100 h-6 w-6">
+                    <path
+                        d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
+                    </path>
+                </svg>
+                <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
+                    class="sun dark:fill-slate-100 h-6 w-6">
+                    <path
+                        d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z">
+                    </path>
+                </svg>
+            </label>
+
+        </div>
+
+        <div class="top-9 fixed header">
+
+            <div class="flex items-center gap-3 ms-7 sm:ms-10">
+
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0"
+                    y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                    class="p-0 h-11 w-11 dark:fill-slate-100">
+                    <g>
+                        <path d="M0 12c6 0 12-6 12-12 0 6 6 12 12 12-6 0-12 6-12 12 0-6-6-12-12-12z" opacity="1"
+                            data-original="#000000" class=""></path>
+                    </g>
+                </svg>
+
+                <p class="text-2xl Roboto-Mono font-normal align-middle dark:text-slate-100">WELCOME</p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="px-2 relative overflow-hidden w-full mx-auto max-w-[1440px]">
+
+        <div class="w-full grid grid-cols-1 align-middle h-[650px] section home" id="home">
+
+            <div class="w-full flex items-end justify-center">
+                <div class="loader"></div>
+                <h3 class="Roboto-Mono text-md sm:text-xl mx-4 dark:text-slate-100">AVAIBLE FOR OPPORTUNITIES</h3>
+                <div class="loader"></div>
+            </div>
+
+            <h1
+                class="Inter-Tight w-full font-extrabold text-center tracking-[-2px] mx-auto mt-10 dark:text-slate-100 title">
+                WEB<br>DEVELOPER
+            </h1>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 section px-2 sm:px-0" id="work">
+
+            <div class="img-hover rounded-[50px] w-full flex relative">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/FacilitaAi.jpg 1x">
+                    <source srcset="./img/2x/FacilitaAi.jpg 2x, ./img/3x/FacilitaAi.jpg 3x">
+                    <img src="./img/2x/FacilitaAi.jpg" alt=""
+                        class="absolute object-cover bg-center h-full w-full z-10 img">
+                </picture>
+                <div class="z-20 flex items-end justify-items-stretch m-8 w-full">
+                    <div class="justify-self-start self-end Inter-Tight text-6xl text-zinc-100">
+                        <p class="tracking-[-2px]">FacilitaAí</p>
+                    </div>
+                    <div class="self-start buttonHover">
+                        <a href="#"
+                            class="relative inline-flex items-center justify-start p-4 overflow-hidden font-semibold hover:shadow-[0px_0px_30px_2px_var(--TertiaryColor)] fill-[--SecondaryColor] transition-all duration-150 ease-in-out rounded-full bg-gray-50 dark:bg-zinc-900 dark:fill-white dark:hover:fill-gray-200 group">
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-0 transition-all duration-150 ease-in-out bg-gradient-custom group-hover:h-full"></span>
+                            <span
+                                class="relative w-full transition-colors duration-200 ease-in-out group-hover:fill-white dark:group-hover:fill-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" class="dark:fill-white p-1 h-5 w-5" x="0"
+                                    y="0" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                            opacity="1"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-hover rounded-[50px] w-full flex relative">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/img2.jpg 1x">
+                    <source srcset="./img/2x/img2.jpg 2x, ./img/3x/img2.jpg 3x">
+                    <img src="./img/2x/img2.jpg" alt="" class="absolute object-cover bg-center h-full w-full z-10 img">
+                </picture>
+                <div class="z-20 flex items-end justify-items-stretch m-8 w-full">
+                    <div class="justify-self-start self-end Inter-Tight text-6xl text-zinc-100">
+                        <p class="tracking-[-2px]">NULL</p>
+                    </div>
+                    <div class="self-start buttonHover">
+                        <a href="#"
+                            class="relative inline-flex items-center justify-start p-4 overflow-hidden font-semibold hover:shadow-[0px_0px_30px_2px_var(--TertiaryColor)] fill-[--SecondaryColor] transition-all duration-150 ease-in-out rounded-full bg-gray-50 dark:bg-zinc-900 dark:fill-white dark:hover:fill-gray-200 group">
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-0 transition-all duration-150 ease-in-out bg-gradient-custom group-hover:h-full"></span>
+                            <span
+                                class="relative w-full transition-colors duration-200 ease-in-out group-hover:fill-white dark:group-hover:fill-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" class="dark:fill-white p-1 h-5 w-5" x="0"
+                                    y="0" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                            opacity="1"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-hover rounded-[50px] w-full flex relative">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/img5.jpg 1x">
+                    <source srcset="./img/2x/img5.jpg 2x, ./img/3x/img5.jpg 3x">
+                    <img src="./img/2x/img5.jpg" alt="" class="absolute object-cover bg-center h-full w-full z-10 img">
+                </picture>
+                <div class="z-20 flex items-end justify-items-stretch m-8 w-full">
+                    <div class="justify-self-start self-end Inter-Tight text-6xl text-zinc-100">
+                        <p class="tracking-[-2px]">NULL</p>
+                    </div>
+                    <div class="self-start buttonHover">
+                        <a href="#"
+                            class="relative inline-flex items-center justify-start p-4 overflow-hidden font-semibold hover:shadow-[0px_0px_30px_2px_var(--TertiaryColor)] fill-[--SecondaryColor] transition-all duration-150 ease-in-out rounded-full bg-gray-50 dark:bg-zinc-900 dark:fill-white dark:hover:fill-gray-200 group">
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-0 transition-all duration-150 ease-in-out bg-gradient-custom group-hover:h-full"></span>
+                            <span
+                                class="relative w-full transition-colors duration-200 ease-in-out group-hover:fill-white dark:group-hover:fill-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" class="dark:fill-white p-1 h-5 w-5" x="0"
+                                    y="0" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                            opacity="1"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-hover rounded-[50px] w-full flex relative">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/img6.jpg 1x">
+                    <source srcset="./img/2x/img6.jpg 2x, ./img/3x/img6.jpg 3x">
+                    <img src="./img/2x/img6.jpg" alt="" class="absolute object-cover bg-center h-full w-full z-10 img">
+                </picture>
+                <div class="z-20 flex items-end justify-items-stretch m-8 w-full">
+                    <div class="justify-self-start self-end Inter-Tight text-6xl text-zinc-100">
+                        <p class="tracking-[-2px]">NULL</p>
+                    </div>
+                    <div class="self-start buttonHover">
+                        <a href="#"
+                            class="relative inline-flex items-center justify-start p-4 overflow-hidden font-semibold hover:shadow-[0px_0px_30px_2px_var(--TertiaryColor)] fill-[--SecondaryColor] transition-all duration-150 ease-in-out rounded-full bg-gray-50 dark:bg-zinc-900 dark:fill-white dark:hover:fill-gray-200 group">
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-0 transition-all duration-150 ease-in-out bg-gradient-custom group-hover:h-full"></span>
+                            <span
+                                class="relative w-full transition-colors duration-200 ease-in-out group-hover:fill-white dark:group-hover:fill-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" class="dark:fill-white p-1 h-5 w-5" x="0"
+                                    y="0" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                            opacity="1"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-hover rounded-[50px] w-full flex relative">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/img7.jpg 1x">
+                    <source srcset="./img/2x/img7.jpg 2x, ./img/3x/img7.jpg 3x">
+                    <img src="./img/2x/img7.jpg" alt="" class="absolute object-cover bg-center h-full w-full z-10 img">
+                </picture>
+                <div class="z-20 flex items-end justify-items-stretch m-8 w-full">
+                    <div class="justify-self-start self-end Inter-Tight text-6xl text-zinc-100">
+                        <p class="tracking-[-2px]">NULL</p>
+                    </div>
+                    <div class="self-start buttonHover">
+                        <a href="#"
+                            class="relative inline-flex items-center justify-start p-4 overflow-hidden font-semibold hover:shadow-[0px_0px_30px_2px_var(--TertiaryColor)] fill-[--SecondaryColor] transition-all duration-150 ease-in-out rounded-full bg-gray-50 dark:bg-zinc-900 dark:fill-white dark:hover:fill-gray-200 group">
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-0 transition-all duration-150 ease-in-out bg-gradient-custom group-hover:h-full"></span>
+                            <span
+                                class="relative w-full transition-colors duration-200 ease-in-out group-hover:fill-white dark:group-hover:fill-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" class="dark:fill-white p-1 h-5 w-5" x="0"
+                                    y="0" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                            opacity="1"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-hover rounded-[50px] w-full flex relative">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/img8.jpg 1x">
+                    <source srcset="./img/2x/img8.jpg 2x, ./img/3x/img8.jpg 3x">
+                    <img src="./img/2x/img8.jpg" alt="" class="absolute object-cover bg-center h-full w-full z-10 img">
+                </picture>
+                <div class="z-20 flex items-end justify-items-stretch m-8 w-full">
+                    <div class="justify-self-start self-end Inter-Tight text-6xl text-zinc-100">
+                        <p class="tracking-[-2px]">NULL</p>
+                    </div>
+                    <div class="self-start buttonHover">
+                        <a href="#"
+                            class="relative inline-flex items-center justify-start p-4 overflow-hidden font-semibold hover:shadow-[0px_0px_30px_2px_var(--TertiaryColor)] fill-[--SecondaryColor] transition-all duration-150 ease-in-out rounded-full bg-gray-50 dark:bg-zinc-900 dark:fill-white dark:hover:fill-gray-200 group">
+                            <span
+                                class="absolute bottom-0 left-0 w-full h-0 transition-all duration-150 ease-in-out bg-gradient-custom group-hover:h-full"></span>
+                            <span
+                                class="relative w-full transition-colors duration-200 ease-in-out group-hover:fill-white dark:group-hover:fill-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" class="dark:fill-white p-1 h-5 w-5" x="0"
+                                    y="0" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <path
+                                            d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                            opacity="1"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="w-full grid grid-cols-1 align-middle h-full section text-center lg:text-start mt-36" id="about">
+
+            <div
+                class="grid grid-cols-1 lg:grid-cols-2 align-middle justify-center items-center py-14 gap-4 px-3 lg:px-0">
+
+                <img src="./img/LeonardoArtLS.png" alt=""
+                    class="object-cover bg-center lg:h-[650px] w-full md:w-[60vw] 2xl:h-[100%] justify-self-center rounded-[4rem] bg-gradient-to-r from-[--PrimaryColor] to-[--SecondaryColor] aspect-[1] lg:aspect-auto">
+
+                <div class="mx-end rounded-lg p-4 sm:p-6 lg:p-8 dark:text-zinc-100">
+
+                    <p class="Inter-Tight text-[64px] font-normal tracking-[-2px] leading-[64px] my-7">About Me</p>
+
+                    <p class="Inter-Tight mt-8 text-xl dark:text-zinc-300">
+                        Sou um Desenvolvedor Web Junior de 19 anos, atualmente morando em Balneário Camboriú, Brasil.
+                        Recentemente, concluí o curso do Entra21, onde adquiri conhecimentos em PHP, JavaScript, CSS,
+                        HTML, MySQL, Bootstrap e Laravel.
+                    </p>
+                    <p class="Inter-Tight mt-5 text-xl mb-16 dark:text-zinc-300">
+                        Estou atualmente no segundo semestre do curso de Sistemas para Internet do IFC, buscando
+                        expandir meu conhecimento e desenvolver novas habilidades. Durante minha formação no Entra21,
+                        adquiri familiaridade com tecnologias essenciais para o Desenvolvimento Web, preparando-me para
+                        desafios do mundo real.
+                    </p>
+
+                    <div class="flex gap-4 self-end mt-auto flex-wrap justify-center lg:justify-start">
+                        <a href="https://github.com/LeonardoArtLS"
+                            class="flex-row flex align-middle items-center tooltip" target="_blank">
+                            <p class="text-lg sm:text-2xl lg:text-3xl">GitHub</p><svg xmlns="http://www.w3.org/2000/svg"
+                                version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                                viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                        opacity="1"></path>
+                                </g>
+                            </svg>
+                            <span class="tooltiptext">LeonardoArtLS</span>
+                        </a>
+
+                        <a href="mailto:leonardoarthu627@gmail.com"
+                            class="flex-row flex align-middle items-center tooltip" target="_blank">
+                            <p class="text-lg sm:text-2xl lg:text-3xl">Email</p><svg xmlns="http://www.w3.org/2000/svg"
+                                version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                                viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                        opacity="1"></path>
+                                </g>
+                            </svg>
+                            <span class="tooltiptext">leonardoarthu627@gmail.com</span>
+                        </a>
+
+                        <a href="https://wa.me/5547997873199" class="flex-row flex align-middle items-center tooltip"
+                            target="_blank">
+                            <p class="text-lg sm:text-2xl lg:text-3xl">Whatsapp</p><svg
+                                xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                                viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                        opacity="1"></path>
+                                </g>
+                            </svg>
+                            <span class="tooltiptext">+55 (47) 99787-3199</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/leonardo-arthur-luchtenberg-silva/"
+                            class="flex-row flex align-middle items-center tooltip" target="_blank">
+                            <p class="text-lg sm:text-2xl lg:text-3xl">Linkedin</p><svg
+                                xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                                viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                        opacity="1"></path>
+                                </g>
+                            </svg>
+                            <span class="tooltiptext tooltiptext-lg">Leonardo Arthur Luchtenberg Silva</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="h-full w-full section mx-auto" id="stack">
+            <div class="mx-end rounded-lg p-4 sm:p-6 lg:p-8 dark:text-zinc-100">
+
+                <p
+                    class="Inter-Tight text-[64px] font-normal tracking-[-2px] leading-[64px] my-7 text-center lg:text-start">
+                    Stack</p>
+
+                <div class="flex flex-wrap gap-2 mb-10 lg:w-8/12 mx-auto lg:mx-0">
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">PHP</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">Laravel</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">Sass</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">HTML5</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">CSS3</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">Bootstrap</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">Tailwind CSS</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">JavaScript</p>
+                    </div>
+                    <div
+                        class="bg-zinc-100 dark:bg-zinc-900 px-6 py-1 rounded-3xl Inter-Tight text-2xl text-black dark:text-white border border-black dark:border-white cursor-default">
+                        <p class="tracking-[-2px]">MySQL</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 mb-36 transition-all">
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">PHP</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-7/12 mx-auto">
+                                <path
+                                    d="M12 5.601h-.116c-1.61 0-3.18.175-4.69.507l.144-.027a16.125 16.125 0 0 0-3.91 1.343l.094-.042a8.123 8.123 0 0 0-2.57 1.93l-.007.008A3.6 3.6 0 0 0 0 11.684v.004c.019.914.374 1.741.946 2.367l-.002-.003a8.105 8.105 0 0 0 2.529 1.917l.048.021a15.7 15.7 0 0 0 3.71 1.282l.106.019c1.366.305 2.936.48 4.546.48h.123H12h.116c1.61 0 3.18-.175 4.69-.507l-.144.027a16.125 16.125 0 0 0 3.91-1.343l-.094.042a8.123 8.123 0 0 0 2.57-1.93l.007-.008A3.6 3.6 0 0 0 24 11.688v-.004a3.608 3.608 0 0 0-.947-2.371l.002.003a8.105 8.105 0 0 0-2.529-1.917l-.048-.021a15.7 15.7 0 0 0-3.71-1.282l-.106-.019a21.212 21.212 0 0 0-4.546-.48h-.123h.006zm-3.12 7.264c-.131.119-.28.221-.442.301l-.011.005a2.916 2.916 0 0 1-.482.179l-.021.005a1.723 1.723 0 0 1-.579.099h-.024h.001H5.35l-.32 1.963H3.583l1.28-6.675h2.773l.062-.001c.36 0 .706.063 1.026.179l-.021-.007c.295.108.546.276.748.489l.001.001c.175.223.3.493.354.789l.002.011a2.932 2.932 0 0 1-.015 1.059l.003-.019a2.82 2.82 0 0 1-.142.485l.007-.019q-.086.221-.184.417q-.122.196-.27.393a2.164 2.164 0 0 1-.317.343l-.003.002zm4.172.589l.565-2.822c.024-.107.038-.229.038-.355l-.002-.078v.004a.426.426 0 0 0-.111-.283a.671.671 0 0 0-.241-.134l-.005-.001a1.388 1.388 0 0 0-.418-.062l-.051.001h.002h-1.126l-.736 3.73H9.544l1.28-6.48h1.423l-.343 1.767h1.28l.073-.001c.331 0 .653.041.961.117l-.027-.006c.249.055.466.172.641.332l-.001-.001a.84.84 0 0 1 .306.498l.001.005a1.945 1.945 0 0 1-.04.787l.003-.014l-.589 2.994zm7.902-2.184c-.04.181-.082.328-.132.473l.009-.031c-.054.159-.12.297-.201.425l.005-.008a1.812 1.812 0 0 1-.248.408l.003-.004c-.098.122-.203.23-.317.329l-.003.003c-.131.119-.28.221-.442.301l-.011.005a2.916 2.916 0 0 1-.482.179l-.021.005a1.723 1.723 0 0 1-.579.099h-.024h.001h-1.972l-.343 1.959h-1.423l1.28-6.675h2.749l.073-.001c.365 0 .716.063 1.041.18l-.022-.007c.287.104.529.272.718.488l.002.002c.19.222.325.497.378.799l.002.01a2.763 2.763 0 0 1-.04 1.076l.004-.019zm-2.7-1.547h-.978l-.513 2.749h.908c.25 0 .496-.023.734-.066l-.025.004c.204-.036.386-.109.546-.212l-.006.003c.136-.122.25-.263.339-.421l.004-.008c.103-.188.18-.407.219-.638l.002-.012a1.877 1.877 0 0 0 .036-.649l.001.009a.812.812 0 0 0-.161-.419l.001.002a1.116 1.116 0 0 0-.409-.243l-.008-.002a1.982 1.982 0 0 0-.689-.096h.003zm-11.19 0h-.978l-.515 2.749h.91c.25 0 .496-.023.734-.066l-.025.004c.204-.036.386-.109.546-.212l-.006.003c.136-.122.25-.263.339-.421l.004-.008c.103-.188.18-.407.219-.638l.002-.012a1.877 1.877 0 0 0 .036-.649l.001.009a.812.812 0 0 0-.161-.419l.001.002a1.116 1.116 0 0 0-.409-.243l-.008-.002a1.982 1.982 0 0 0-.689-.096h.003z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">Laravel</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-7/12 mx-auto">
+                                <path
+                                    d="M21.7 6.53c.01.02.01.05.01.08v4.29c0 .1-.06.22-.15.27l-3.61 2.08v4.11c0 .11-.05.21-.15.27l-7.52 4.33c-.02.01-.04.04-.06.04H10s0-.03-.04-.04l-7.52-4.33a.32.32 0 0 1-.15-.27V4.5c0-.05 0-.08.01-.1c0-.01.01-.02.01-.03c0-.02.01-.03.02-.05c0-.01.01-.02.02-.03l.03-.03l.03-.03c.01-.01.02-.02.03-.02L6.2 2.04c.1-.04.22-.04.3 0l3.78 2.17c.01.01.02.01.03.02l.03.03l.03.03c.01.01.02.02.02.03c.01.02.02.03.02.05c0 .01.01.02.01.03c.01.03.01.05.01.1v8l3.14-1.78V6.61c0-.03 0-.06.01-.08l.01-.03s.01-.03.02-.05c0-.01.01-.02.02-.03l.03-.03l.03-.03c.01-.01.02-.02.03-.02l3.78-2.17c.08-.06.2-.06.3 0l3.76 2.17c.01 0 .02.01.03.02l.03.03l.03.03c.01.01.01.02.02.03c.01.02.01.05.02.05s.01 0 .01.03m-.61 4.19V7.15l-3.14 1.8v3.55zm-3.76 6.46V13.6l-6.9 3.94v3.61zM2.91 5v12.18l6.9 3.97v-3.61l-3.6-2.04H6.2c-.01 0-.02 0-.03-.03c-.01 0-.02-.01-.03-.02l-.03-.03c-.01-.01-.01-.02-.02-.03c-.01-.02-.01-.03-.02-.04c0-.02-.01-.03-.01-.04c-.01-.01-.01-.03-.01-.04V6.82zm3.45-2.32L3.23 4.5l3.13 1.78L9.5 4.5zm3.45 10.2V5L6.67 6.82v7.87zm7.83-8.08L14.5 6.61l3.14 1.8l3.13-1.8zm-.31 4.15l-3.14-1.8v3.57l3.14 1.78zM10.12 17L17 13.06l-3.12-1.8L7 15.23z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">Sass</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                class="fill-white my-auto w-5/12 lg:w-7/12 mx-auto">
+                                <path
+                                    d="M15.145 5.014c-1.414-.075-3.003.142-4.557.681c-2.47.857-5.142 2.205-7.063 3.961c-2.282 2.09-2.648 3.91-2.498 4.67c.534 2.7 4.34 4.46 5.864 5.762c-.075.04-.145.076-.211.113c-.764.371-3.599 1.829-4.325 3.397c-.82 1.778.136 3.05.764 3.224c1.96.532 3.898-.397 4.975-1.968c1.078-1.572.948-3.624.45-4.56c-.004-.013-.014-.022-.019-.036c.197-.115.398-.23.6-.346c.389-.225.769-.43 1.102-.61c-.188.496-.324 1.093-.395 1.954c-.084 1.008.342 2.312.895 2.826c.244.225.538.23.72.23c.647 0 .938-.522 1.26-1.146c.398-.761.75-1.645.75-1.645s-.44 2.391.766 2.391c.44 0 .88-.554 1.078-.838v.004s.007-.018.031-.055c.047-.069.07-.109.07-.109V22.9c.178-.298.569-.98 1.155-2.107c.759-1.457 1.484-3.277 1.484-3.277c.07.4.167.794.291 1.181c.131.435.409.912.629 1.375c-.178.238-.287.375-.287.375c0 .004.003.008.006.01c-.141.183-.301.38-.465.572c-.6.697-1.313 1.496-1.406 1.725c-.113.27-.085.47.13.627c.16.119.443.137.737.115a3.331 3.331 0 0 0 1.101-.248a3.86 3.86 0 0 0 .946-.484c.586-.422.943-1.028.91-1.825c-.02-.44-.166-.88-.344-1.293c.052-.073.11-.15.16-.228a24.175 24.175 0 0 0 1.645-2.777c.07.4.167.794.29 1.181c.114.371.334.779.536 1.178c-.871.692-1.412 1.494-1.6 2.021c-.347.976-.073 1.415.438 1.516c.23.046.557-.058.8-.158c.363-.118.703-.29 1.012-.51c.586-.422 1.154-1.012 1.116-1.814c-.014-.362-.116-.725-.252-1.073c.736-.302 1.69-.467 2.91-.33c2.61.298 3.121 1.893 3.023 2.557c-.098.665-.647 1.036-.83 1.146c-.183.11-.238.152-.224.235c.023.119.106.114.261.086c.216-.037 1.368-.54 1.42-1.774c.075-1.557-1.455-3.27-4.168-3.257h-.004c-.941 0-1.87.211-2.715.619c-.277-.545-.563-1.022-.609-1.38c-.056-.416-.116-.663-.05-1.157c.065-.495.36-1.197.355-1.248c-.005-.05-.066-.302-.67-.307c-.604-.005-1.126.114-1.186.27c-.107.284-.19.576-.248.874c-.108.536-1.209 2.453-1.832 3.452c-.206-.39-.379-.733-.416-1.008c-.056-.417-.118-.664-.053-1.158c.066-.495.363-1.197.358-1.248c-.005-.05-.066-.302-.67-.307c-.604-.005-1.127.114-1.188.27c-.06.155-.127.521-.248.874c-.122.353-1.588 3.544-1.972 4.373a21.34 21.34 0 0 1-.489.99c-.019.038-.032.06-.04.079c.013-.023.023-.046.023-.037c-.103.197-.164.306-.164.306v.004c-.08.147-.17.282-.211.282c-.028 0-.09-.386.014-.913c.22-1.109.74-2.832.736-2.892c-.005-.032.096-.33-.344-.49c-.427-.151-.58.101-.617.101c-.038 0-.066.092-.066.092s.471-1.943-.91-1.943c-.864 0-2.064.925-2.653 1.763c-.37.197-1.172.624-2.016 1.078l-.968.522c-.023-.023-.043-.046-.067-.069c-1.678-1.75-4.775-2.988-4.644-5.34c.047-.856.353-3.105 5.957-5.837c4.594-2.236 8.266-1.623 8.898-.258c.91 1.948-1.964 5.574-6.734 6.096c-1.818.197-2.656-.571-2.895-.828c-.248-.27-.287-.285-.38-.235c-.156.082-.057.321 0 .463c.14.362.767.929 1.765 1.25c.877.28 2.89.515 5.469-.46c2.896-1.092 5.108-4.056 4.447-6.599c-.42-1.615-2.289-2.551-4.644-2.675m-1.538 12.275c.074.005.128.033.159.084c.164.271-.57 2.266-.758 2.715c-.3.72-.934 2.554-1.319 2.457c-.328-.082-.53-1.48-.066-2.856c.234-.692.731-1.516 1.027-1.837c.355-.389.738-.58.957-.563m9.74 2.262c.056.16.085.328.089.496c-.005 1.032-.76 1.416-1.213 1.576c-.094-.064-.082-.28.232-.95c.122-.26.405-.7.893-1.122zM7.605 20.688c.389 1.393.014 2.621-.895 3.59c-.862.92-2.072 1.269-2.592.976c-.558-.317-.337-1.674.727-2.656c.647-.596 1.482-1.146 2.035-1.485c.127-.073.308-.183.533-.316a.576.576 0 0 1 .057-.031c.042-.027.088-.05.135-.078m11.777.16c0 .023.006.047.006.074c-.006.82-.814 1.374-1.18 1.594h.004v.002c-.127.064-.245.104-.3.072c-.043-.023.052-.11.052-.11s.651-.684.908-.996c.15-.183.323-.398.51-.636" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">HTML5</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-7/12 mx-auto">
+                                <path
+                                    d="m3 2l1.578 17.824L12 22l7.467-2.175L21 2zm14.049 6.048H9.075l.172 2.016h7.697l-.626 6.565l-4.246 1.381l-4.281-1.455l-.288-2.932h2.024l.16 1.411l2.4.815l2.346-.763l.297-3.005H7.416l-.562-6.05h10.412z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">CSS3</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-7/12 mx-auto">
+                                <path
+                                    d="m3 2l1.578 17.834L12 22l7.468-2.165L21 2zm13.3 14.722l-4.293 1.204H12l-4.297-1.204l-.297-3.167h2.108l.15 1.526l2.335.639l2.34-.64l.245-3.05h-7.27l-.187-2.006h7.64l.174-2.006H6.924l-.176-2.006h10.506z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">Bootstrap</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-6/12 mx-auto">
+                                <path fill-rule="evenodd"
+                                    d="M4.985 2c-1.37 0-2.383 1.199-2.337 2.498c.043 1.25-.013 2.867-.42 4.186c-.41 1.322-1.1 2.16-2.228 2.268v1.215c1.128.107 1.819.945 2.227 2.268c.408 1.319.464 2.936.42 4.185c-.045 1.3.968 2.499 2.338 2.499h14.032c1.37 0 2.383-1.199 2.337-2.499c-.043-1.249.013-2.866.42-4.185c.409-1.323 1.098-2.16 2.226-2.268v-1.215c-1.128-.108-1.817-.946-2.226-2.268c-.407-1.32-.463-2.937-.42-4.186C21.4 3.198 20.386 2 19.017 2zM16.27 13.769c0 1.79-1.335 2.875-3.55 2.875H8.949a.407.407 0 0 1-.407-.407V6.881a.407.407 0 0 1 .407-.406h3.75c1.847 0 3.06 1 3.06 2.537c0 1.078-.816 2.043-1.855 2.213v.056c1.415.155 2.367 1.135 2.367 2.488M12.31 7.764h-2.15v3.038h1.811c1.4 0 2.172-.564 2.172-1.572c0-.944-.664-1.466-1.833-1.466m-2.15 4.243v3.347h2.23c1.457 0 2.23-.585 2.23-1.684c0-1.1-.794-1.663-2.324-1.663z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">Tailwind CSS</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-7/12 mx-auto">
+                                <path
+                                    d="M12 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.31.74 1.91 1.35c.98 1 2.09 2.15 4.59 2.15c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6m-5 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.3.74 1.91 1.35C8.39 16.85 9.5 18 12 18c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C10.61 13.15 9.5 12 7 12" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">JavaScript</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-6/12 mx-auto">
+                                <path
+                                    d="M0 0h24v24H0zm18.347 20.12c-1.113 0-1.742-.58-2.225-1.37l-1.833 1.065c.662 1.308 2.015 2.306 4.11 2.306c2.142 0 3.737-1.112 3.737-3.143c0-1.883-1.082-2.72-2.998-3.543l-.564-.241c-.968-.42-1.387-.693-1.387-1.37c0-.547.42-.966 1.08-.966c.647 0 1.064.273 1.451.966l1.756-1.127c-.743-1.307-1.773-1.806-3.207-1.806c-2.014 0-3.303 1.288-3.303 2.98c0 1.835 1.08 2.704 2.708 3.397l.564.242c1.029.45 1.642.724 1.642 1.497c0 .646-.597 1.113-1.531 1.113m-8.74-.015c-.775 0-1.098-.53-1.452-1.16l-1.836 1.112c.532 1.126 1.578 2.06 3.383 2.06c1.999 0 3.368-1.063 3.368-3.398v-7.7h-2.255v7.67c0 1.127-.468 1.416-1.209 1.416"
+                                    clip-rule="evenodd" />
+                                </g>
+                                <defs>
+                                    <path d="M0 0h24v24H0z" />
+                                    </clipPath>
+                                </defs>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-full aspect-square flex relative rounded-[50px] bg-black dark:bg-zinc-900 stackImg">
+                        <img src="..." alt="" class="w-full h-full absolute">
+                        <div class="z-20 flex items-end justify-items-stretch m-5 lg:m-8 w-full">
+                            <div
+                                class="justify-self-start self-end lg:self-start bg-white px-3 lg:px-6 lg:py-1 rounded-3xl Inter-Tight text-lg lg:text-2xl text-black absolute">
+                                <p class="tracking-[-2px]">MySQL</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                class="fill-white my-auto w-5/12 lg:w-6/12 mx-auto">
+                                <path
+                                    d="m24.129 23.412l-.508-.484a6.66 6.66 0 0 0-.809-.891l-.005-.004q-.448-.407-.931-.774q-.387-.266-1.064-.641a1.6 1.6 0 0 1-.818-.824l-.004-.01l-.048-.024c.212-.021.406-.06.592-.115l-.023.006l.57-.157c.236-.074.509-.122.792-.133h.006c.298-.012.579-.06.847-.139l-.025.006q.194-.048.399-.109t.351-.109v-.169q-.145-.217-.351-.496a2.561 2.561 0 0 0-.443-.468l-.005-.004q-.629-.556-1.303-1.076a15.783 15.783 0 0 0-1.311-.916l-.068-.04a4.983 4.983 0 0 0-.825-.435l-.034-.012q-.448-.182-.883-.399a1.638 1.638 0 0 0-.327-.119l-.011-.002a.516.516 0 0 1-.29-.169l-.001-.001a2.999 2.999 0 0 1-.355-.609l-.008-.02q-.145-.339-.314-.651q-.363-.702-.702-1.427t-.651-1.452q-.217-.484-.399-.967a5.395 5.395 0 0 0-.461-.942l.013.023a17.366 17.366 0 0 0-1.331-1.961l.028.038a14.57 14.57 0 0 0-1.459-1.59l-.008-.007a17.619 17.619 0 0 0-1.632-1.356l-.049-.035q-.896-.651-1.96-1.282a3.7 3.7 0 0 0-.965-.393l-.026-.006l-1.113-.278l-.629-.048q-.314-.024-.629-.024a1.68 1.68 0 0 1-.387-.279a3.581 3.581 0 0 0-.353-.295l-.01-.007a11.686 11.686 0 0 0-2.043-.93L2.071.18A1.355 1.355 0 0 0 .9.096L.909.093a1.36 1.36 0 0 0-.795.84l-.003.01a1.515 1.515 0 0 0 .232 1.549l-.002-.003q.544.725.834 1.14q.217.291.448.605c.141.188.266.403.367.63l.008.021c.056.119.105.261.141.407l.003.016q.048.206.121.448q.217.556.411 1.14c.141.425.297.785.478 1.128l-.019-.04q.145.266.291.52T3.738 9a.868.868 0 0 0 .241.242l.003.002a.406.406 0 0 1 .169.313v.001a1.326 1.326 0 0 0-.217.586l-.001.006a4.227 4.227 0 0 1-.153.695l.008-.03a7.103 7.103 0 0 0-.351 2.231c0 .258.013.512.04.763l-.003-.031c.06.958.349 1.838.812 2.6l-.014-.025c.197.295.408.552.641.787a.914.914 0 0 0 1.106.203l-.005.002a.926.926 0 0 0 .617-.827v-.002c.048-.474.12-.898.219-1.312l-.013.067a.595.595 0 0 0 .038-.211l-.002-.045v.002q-.012-.109.133-.206v.048q.145.339.302.677t.326.677c.295.449.608.841.952 1.202l-.003-.003a7.74 7.74 0 0 0 1.127 1.001l.022.015c.212.162.398.337.566.528l.004.004c.158.186.347.339.56.454l.01.005v-.024h.048a.461.461 0 0 0-.18-.205l-.002-.001a1.829 1.829 0 0 1-.211-.136l.005.003q-.217-.217-.448-.484t-.423-.508q-.508-.702-.969-1.467t-.871-1.555q-.194-.387-.375-.798t-.351-.798a.997.997 0 0 1-.096-.334v-.005a.318.318 0 0 0-.168-.265l-.002-.001a2.947 2.947 0 0 1-.408.545l.001-.001a1.974 1.974 0 0 0-.382.58l-.005.013a4.272 4.272 0 0 0-.289 1.154l-.002.019q-.072.641-.145 1.318l-.048.024l-.024.024a.855.855 0 0 1-.59-.443l-.002-.005q-.182-.351-.326-.69a6.448 6.448 0 0 1-.423-2.144v-.009a6.218 6.218 0 0 1 .286-2.318l-.012.044q.072-.266.314-.896t.097-.871a.876.876 0 0 0-.265-.41l-.001-.001a3.31 3.31 0 0 1-.335-.335l-.003-.004q-.169-.244-.326-.52t-.278-.544a11.408 11.408 0 0 1-.474-1.353l-.022-.089a10.174 10.174 0 0 0-.546-1.503l.026.064a3.32 3.32 0 0 0-.39-.669l.006.008q-.244-.326-.436-.617q-.244-.314-.484-.605a3.414 3.414 0 0 1-.426-.657l-.009-.02a1.638 1.638 0 0 1-.119-.327l-.002-.011a.406.406 0 0 1 .049-.34l-.001.002a.303.303 0 0 1 .073-.145a.308.308 0 0 1 .143-.072h.002a.55.55 0 0 1 .536-.035l-.003-.001c.219.062.396.124.569.195l-.036-.013q.459.194.847.375c.298.142.552.292.792.459l-.018-.012q.194.121.387.266t.411.291h.339q.387 0 .822.037c.293.023.564.078.822.164l-.024-.007c.481.143.894.312 1.286.515l-.041-.019q.593.302 1.125.641c.589.367 1.098.743 1.577 1.154l-.017-.014c.5.428.954.867 1.38 1.331l.01.012c.416.454.813.947 1.176 1.464l.031.047c.334.472.671 1.018.974 1.584l.042.085a4.6 4.6 0 0 1 .234.536l.011.033q.097.278.217.57q.266.605.57 1.221t.57 1.198l.532 1.161c.187.406.396.756.639 1.079l-.011-.015c.203.217.474.369.778.422l.008.001c.368.092.678.196.978.319l-.047-.017c.143.065.327.134.516.195l.04.011c.212.065.396.151.565.259l-.009-.005c.327.183.604.363.868.559l-.021-.015q.411.302.822.57q.194.145.651.423t.484.52a11.202 11.202 0 0 0-1.834.087l.056-.006a5.959 5.959 0 0 0-1.479.39l.04-.014a2.556 2.556 0 0 1-.388.129l-.019.004a.312.312 0 0 0-.266.277v.001c.061.076.11.164.143.26l.002.006c.034.102.075.19.125.272l-.003-.006c.119.211.247.393.391.561l-.004-.005c.141.174.3.325.476.454l.007.005q.244.194.508.399c.161.126.343.25.532.362l.024.013c.284.174.614.34.958.479l.046.016c.374.15.695.324.993.531l-.016-.011q.291.169.58.375t.556.399c.073.072.137.152.191.239l.003.005a.573.573 0 0 0 .36.193h.003v-.048a.516.516 0 0 1-.184-.267l-.001-.004a.95.95 0 0 0-.112-.273l.002.004zM5.553 4.207q-.194 0-.363.012a1.285 1.285 0 0 0-.323.063l.009-.003v.024h.048q.097.145.244.326t.266.351l.387.798l.048-.024a.735.735 0 0 0 .252-.321l.002-.005c.052-.139.082-.301.082-.469l-.001-.054v.003a.504.504 0 0 1-.108-.154l-.001-.003l-.081-.182a.52.52 0 0 0-.214-.192l-.003-.001a.93.93 0 0 1-.244-.169" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-1 items-center lg:grid-cols-2 h-full dark:text-white text-black section mb-20 contact"
+            id="contact">
+
+            <div class="py-[40px] px-[28px] lg:px-[16px] xl:ps-[10px] xl:pr-[28px] text-center sm:text-start">
+
+                <h4 class="Inter-Tight text-[64px] font-normal tracking-[-2px] leading-[64px]">Contact</h4>
+
+                <p class="Inter-Tight text-[32px] dark:text-zinc-300 mt-4">Estou disponível para Oportunidades.
+                    Entre em contato por e-mail.</p>
+
+                <p class="Inter-Tight mt-8 text-xl">INQUIRY FORM</p>
+
+
+                <!-- <form action="../api/mailer.php" method="POST" id="contactForm" class="grid grid-cols-2 my-3 gap-2"> -->
+                <form action="../src/emailErro.html" method="POST" id="contactForm"
+                    class="grid grid-cols-2 my-3 gap-2">
+
+                    <input type="text" placeholder="NAME" name="name" id="name"
+                        class="autofill:bg-black border-none bg-slate-200 dark:bg-zinc-900 rounded-lg px-6 py-5 text-base cursor-pointer transition"
+                        required autocomplete="off">
+                    <input type="text" placeholder="EMAIL" name="email" id="email"
+                        class="autofill:bg-black border-none bg-slate-200 dark:bg-zinc-900 rounded-lg px-6 py-5 text-base cursor-pointer transition"
+                        required autocomplete="off">
+                    <textarea name="message" id="message" rows="10" placeholder="MESSAGE"
+                        class="autofill:bg-black border-none col-span-2 h-full w-full bg-slate-200 dark:bg-zinc-900 rounded-lg px-6 py-5 text-base cursor-pointer transition max-h-96 min-h-16"
+                        required autocomplete="off"></textarea>
+
+                    <button type="submit" name="submit"
+                        class="autofill:bg-black mt-1 col-span-2 h-full w-full bg-black text-slate-200 dark:bg-white dark:text-black rounded-lg px-6 py-5 text-base cursor-pointer transition Roboto-Mono font-semibold text-[16px] border-none">SEND
+                        EMAIL</button>
+
+                </form>
+
+            </div>
+
+            <div class="h-[400px] lg:h-full px-2 lg:px-0">
+                <picture>
+                    <source media="(max-width: 759px)" srcset="./img/1x/img6.jpg 1x">
+                    <source srcset="./img/2x/img6.jpg 2x, ./img/3x/img6.jpg 3x">
+                    <img src="./img/2x/img6.jpg" alt=""
+                        class="rounded-3xl object-cover bg-center h-full w-full z-10 img my-auto">
+                </picture>
+            </div>
+
+        </div>
+
+        <div
+            class="grid text-center lg:text-start grid-cols-1 lg:grid-cols-2 Inter-Tight items-center pb-24 lg:py-10 dark:text-white">
+
+            <div class="my-10 lg:my-0 lg:ms-2">
+                <p>PORTFOLIO MADE BY LEONARDOARTLS</p>
+                <p>ALL RIGHTS RESERVED &#169;</p>
+            </div>
+
+            <div class="w-full h-full flex flex-wrap gap-4 justify-center">
+
+                <a href="https://github.com/LeonardoArtLS" class="flex-row flex align-middle items-center tooltip"
+                    target="_blank">
+                    <p class="text-lg sm:text-2xl lg:text-3xl">GitHub</p><svg xmlns="http://www.w3.org/2000/svg"
+                        version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                        viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                opacity="1"></path>
+                        </g>
+                    </svg>
+                    <span class="tooltiptext">LeonardoArtLS</span>
+                </a>
+
+                <a href="mailto:leonardoarthu627@gmail.com" class="flex-row flex align-middle items-center tooltip"
+                    target="_blank">
+                    <p class="text-lg sm:text-2xl lg:text-3xl">Email</p><svg xmlns="http://www.w3.org/2000/svg"
+                        version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                        viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                opacity="1"></path>
+                        </g>
+                    </svg>
+                    <span class="tooltiptext">leonardoarthu627@gmail.com</span>
+                </a>
+
+                <a href="https://wa.me/5547997873199" class="flex-row flex align-middle items-center tooltip"
+                    target="_blank">
+                    <p class="text-lg sm:text-2xl lg:text-3xl">Whatsapp</p><svg xmlns="http://www.w3.org/2000/svg"
+                        version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                        viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                opacity="1"></path>
+                        </g>
+                    </svg>
+                    <span class="tooltiptext">+55 (47) 99787-3199</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/leonardo-arthur-luchtenberg-silva/"
+                    class="flex-row flex align-middle items-center tooltip" target="_blank">
+                    <p class="text-lg sm:text-2xl lg:text-3xl">Linkedin</p><svg xmlns="http://www.w3.org/2000/svg"
+                        version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        class="p-1 h-6 w-6 lg:h-7 lg:w-7 redirectIcon transition dark:fill-white" x="0" y="0"
+                        viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M377.816 7.492C372.504 2.148 366.088 0 358.608 0H98.544c-15.44 0-29.08 10.988-29.08 26.428v23.724c0 15.44 13.64 29.848 29.08 29.848h152.924L8.464 322.08C3.196 327.352.292 333.92.288 341.42c0 7.5 2.908 14.296 8.176 19.568L25.24 377.64c5.264 5.272 12.296 8.116 19.796 8.116s13.768-2.928 19.036-8.2l241.392-242.172v151.124c0 15.444 14.084 29.492 29.52 29.492h23.732c15.432 0 26.752-14.048 26.752-29.492V26.52c-.004-7.472-2.324-13.732-7.652-19.028z"
+                                opacity="1"></path>
+                        </g>
+                    </svg>
+                    <span class="tooltiptext tooltiptext-lg">Leonardo Arthur Luchtenberg Silva</span>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="pointer"></div>
+
+    </div>
+
+    <script src="./theme.js"></script>
+    <script src="./scrollspy.js"></script>
+    <script src="./pointer.js"></script>
+
+</body>
+
+</html>
