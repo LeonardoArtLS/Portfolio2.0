@@ -607,7 +607,7 @@
 
 
                 <!-- <form action="../api/mailer.php" method="POST" id="contactForm" class="grid grid-cols-2 my-3 gap-2"> -->
-                <form action="../src/emailErro.html" id="contactForm"
+                <form action="../src/emailErro.html" method="POST" id="contactForm"
                     class="grid grid-cols-2 my-3 gap-2">
 
                     <input type="text" placeholder="NAME" name="name" id="name"
@@ -620,10 +620,11 @@
                         class="autofill:bg-black border-none col-span-2 h-full w-full bg-slate-200 dark:bg-zinc-900 rounded-lg px-6 py-5 text-base cursor-pointer transition max-h-96 min-h-16"
                         required autocomplete="off"></textarea>
 
+                    <a href="../src/emailErro.html">
                     <button type="submit" name="submit"
                         class="autofill:bg-black mt-1 col-span-2 h-full w-full bg-black text-slate-200 dark:bg-white dark:text-black rounded-lg px-6 py-5 text-base cursor-pointer transition Roboto-Mono font-semibold text-[16px] border-none">SEND
                         EMAIL</button>
-
+                    </a>
                 </form>
 
             </div>

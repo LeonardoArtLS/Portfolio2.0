@@ -65,7 +65,7 @@ html {
   cursor: none !important;
 }
 
-@media (min-width: 640px) {
+/* @media (min-width: 640px) { */
   .pointer {
     display: none;
     position: fixed;
@@ -101,7 +101,7 @@ html {
       var(--SecondaryColor)
     );
   }
-}
+/* } */
 
 /* ---- Fonts ---- */
 .Roboto-Mono {
