@@ -1,34 +1,21 @@
-if (
-    localStorage.theme === "light" ||
-    (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: light)").matches)
-) {
+// Função para alternar entre os temas
+function toggleTheme() {
+  if (document.documentElement.classList.contains("dark")) {
     document.documentElement.classList.remove("dark");
+    localStorage.theme = "light";
+  } else {
+    document.documentElement.classList.add("dark");
+    localStorage.theme = "dark";
+  }
 }
 
-window.onload = () => {
-    const checkbox = document.getElementById('buttonTheme');
-
-    if (
-        localStorage.theme === "light" ||
-        (!("theme" in localStorage) &&
-            window.matchMedia("(prefers-color-scheme: light)").matches)
-    ) {
-        checkbox.checked = true;
-    }
-
-    const clickSound = new Audio("./sound/click1.wav");
-    const click2Sound = new Audio("./sound/click2.wav");
-
-    checkbox.addEventListener("change", function (event) {
-        if (event.target.checked) {
-            document.documentElement.classList.remove("dark");
-            localStorage.theme = "light";
-            clickSound.play();
-        } else {
-            document.documentElement.classList.add("dark");
-            localStorage.theme = "dark";
-            click2Sound.play();
-        }
-    });
-};
+// Carregar o tema preferido do usuário ao carregar a página
+if (
+  localStorage.theme === "dark" ||
+  (!("theme" in localStorage) &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches)
+) {
+  document.documentElement.classList.add("dark");
+} else {
+  document.documentElement.classList.remove("dark");
+}
