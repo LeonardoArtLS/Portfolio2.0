@@ -85,14 +85,14 @@ html {
     z-index: 9999 !important;
   }
 
-  :has(a:hover) .pointer {
+  :has(a:hover),:has(.PointerHoverEffect:hover) {.pointer{
     mix-blend-mode: difference;
     width: 45px;
     height: 45px;
     background: rgb(255, 255, 255, 0.9);
     transition: width 0.8s, height 0.8s;
     border: white solid 2px;
-  }
+  }}
 
   *.dark .pointer {
     background: linear-gradient(
@@ -574,8 +574,6 @@ a.tooltip:hover {
   background-size: cover;
 }
 
-/* https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzZqdDY4MW5teGRpbTlrYmVkZ2NwNXlyYjBhYnA0cDcwNDRwYW00NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vvUmzt9hT8XSrTpsY5/giphy.gif */
-/* https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJsNDB4eGQ5dXQ2enl3dDhqOHRveXdhcG5kcXYwZ3cwcDBraWh6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aCVMlBlPonCOG7S/giphy.gif */
 .stackImg:hover:nth-of-type(1) > img {
   background-image: url("./img/gif1.gif");
 }
@@ -588,23 +586,18 @@ a.tooltip:hover {
   background-image: url("./img/gif3.gif");
 }
 
-/* https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhzMnQ5ZnFpaGxiZ3VjbDI1cDFnamF6ZjNubnd4cnZyMHlwaHVjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C8OSeOz7PY6FzId1lQ/giphy.gif */
 .stackImg:hover:nth-of-type(4) > img {
   background-image: url("./img/gif4.gif");
 }
 
-/* https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2F4bWN4bGdqMDl1MHV3aWgzejg2NDczdG14MGVwMTZidnoyMnM5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B94ae0I5rgBKQ8Ltyv/giphy.gif */
 .stackImg:hover:nth-of-type(5) > img {
   background-image: url("./img/gif5.gif");
 }
 
-/* https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmU2NGswaTY3NHZkd2x6cjhwcGswM2w1eGUwYTIya2NlbXExOWtzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SKpij9FCW3S2b5HC15/giphy.gif */
 .stackImg:hover:nth-of-type(6) > img {
   background-image: url("./img/gif6.gif");
 }
 
-/* https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjlzaDFrMnJxZW8yZWt0NGljbHloMWYzcG1yNHQ5eG41ejB3aDRpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UVkAW5zSme7i4roUe6/giphy.gif */
-/* https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhxczVjdnpiNjI5cjRjNndzZHI0aTQ2Y3F6emlkcjdjYjY0ZmtpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fbox1ygIqnga5dLinz/giphy.gif */
 .stackImg:hover:nth-of-type(7) > img {
   background-image: url("./img/gif7.gif");
 }
@@ -615,6 +608,22 @@ a.tooltip:hover {
 
 .stackImg:hover:nth-of-type(9) > img {
   background-image: url("./img/gif9.gif");
+}
+
+.stackImg:hover:nth-of-type(10) > img {
+  background-image: url("./img/gif10.gif");
+}
+
+.stackImg:hover:nth-of-type(11) > img {
+  background-image: url("./img/gif11.gif");
+}
+
+.stackImg:hover:nth-of-type(12) > img {
+  background-image: url("./img/gif12.gif");
+}
+
+.stackImg:hover:nth-of-type(13) > img {
+  background-image: url("./img/gif13.gif");
 }
 
 @keyframes stackImg-hover {
@@ -654,7 +663,7 @@ input:-webkit-autofill {
 
 /* FORM ALERT */
 .alert {
-  animation: alertDisappear 10s ease forwards;
+  animation: alertDisappear 20s ease forwards;
   user-select: none;
   pointer-events: none;
 }
