@@ -61,11 +61,12 @@ html {
 
 /* Pointer */
 
-* {
-  cursor: none !important;
-}
+@media (min-width: 769px) {
+  
+  * {
+    cursor: none !important;
+  }
 
-/* @media (min-width: 640px) { */
   .pointer {
     display: none;
     position: fixed;
@@ -85,14 +86,17 @@ html {
     z-index: 9999 !important;
   }
 
-  :has(a:hover),:has(.PointerHoverEffect:hover) {.pointer{
-    mix-blend-mode: difference;
-    width: 45px;
-    height: 45px;
-    background: rgb(255, 255, 255, 0.9);
-    transition: width 0.8s, height 0.8s;
-    border: white solid 2px;
-  }}
+  :has(a:hover),
+  :has(.PointerHoverEffect:hover) {
+    .pointer {
+      mix-blend-mode: difference;
+      width: 45px;
+      height: 45px;
+      background: rgb(255, 255, 255, 0.9);
+      transition: width 0.8s, height 0.8s;
+      border: white solid 2px;
+    }
+  }
 
   *.dark .pointer {
     background: linear-gradient(
@@ -101,7 +105,7 @@ html {
       var(--SecondaryColor)
     );
   }
-/* } */
+}
 
 /* ---- Fonts ---- */
 .Roboto-Mono {
