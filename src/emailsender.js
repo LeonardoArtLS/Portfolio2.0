@@ -2,6 +2,7 @@ const form = document.querySelector("#contactForm");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  form.reset();
 
   emailjs.init({
     publicKey: "0gbnq-kWUHBkde8ry",
